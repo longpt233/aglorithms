@@ -1,0 +1,13 @@
+//ios_base::sync_with_stdio(false);
+
+freopen("input.txt","r",stdin); // qick input 
+
+/ freopen ("data.out","w",stdout)
+
+#include<iostream>
+
+using namespace std;
+
+int main(){
+    return 0;
+}
