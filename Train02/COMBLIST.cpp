@@ -23,10 +23,10 @@ void Try(int i,int j){    // try toi so n , truyen vao so so 1 dc viet
             if(k==1) j--;
             if(i==n){
                 if(j<=0){// du cau hinh 
-                    /*  for(int p=1;p<=n;p++){
+                      for(int p=1;p<=n;p++){
                         if(in[p]==1) cout<<p<<" ";
                     }
-                    cout<<endl;  */
+                    cout<<endl;  
                     dem++;
                     if(dem==k1){
                         for(int p=1;p<=n;p++){

@@ -12,7 +12,7 @@ int mod(string num) {
   
     // One by one process all digits of 'num' 
     for (int i = 0; i < num.length(); i++) 
-         res = (res*10 + (int)num[i] - '0') %(10^9+7); 
+         res = (res*10 + (int)num[i] - '0')%(10^9+7) ; 
   
     return res; 
 } 
